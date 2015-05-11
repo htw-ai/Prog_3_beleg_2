@@ -21,12 +21,12 @@ protected:
     QPoint step;
     QPoint size;
     int color, brush;
-    const double rad = 3.0;
+    double rad = 3.0;
     bool collisionX();
     bool collisionY();
-    void flipX();
-    void flipY();
-    void gravity();
+    virtual void flipX();
+    virtual void flipY();
+    virtual void gravity();
     QPoint calcStep();
     int calcColor();
 };

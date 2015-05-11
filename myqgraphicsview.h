@@ -18,6 +18,7 @@ private:
     int sphereSize = 50;
     void printSphere(int x, int y, double rad, int color, int brush);
     void initFirework(QPoint coord);
+    void initTennisBall(QPoint coord);
     QPoint size = QPoint(500, 500);
 
 protected:

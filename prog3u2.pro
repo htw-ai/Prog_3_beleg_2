@@ -12,10 +12,12 @@ HEADERS += \
     dot.h \
     myqgraphicsview.h \
     sphere.h \
-    circle.h
+    circle.h \
+    tennisball.h
 FORMS += mainwindow.ui
 SOURCES += main.cpp \
     dot.cpp \
     myqgraphicsview.cpp \
     sphere.cpp \
-    circle.cpp
+    circle.cpp \
+    tennisball.cpp
