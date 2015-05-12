@@ -4,6 +4,8 @@
 #include <QGraphicsScene>
 #include "sphere.h"
 
+/** @brief inherits from Sphere and changes the brush
+ */
 class Circle : public Sphere
 {
     public:

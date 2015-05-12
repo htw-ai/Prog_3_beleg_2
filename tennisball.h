@@ -4,6 +4,10 @@
 #include <QGraphicsScene>
 #include "sphere.h"
 
+/** @brief inherits from Sphere
+ *
+ * gets rid of gravity and slowdown on collision
+ */
 class TennisBall : public Sphere
 {
     public:
